@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        ol,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+        
+        * {
+            font-family: fantasy;
+        }
+        img {
+            width: 100%;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        .full-with {
+            width: 100%;
+        }
+        
+        .fixed-width {
+            width: 1000px;
+            margin: auto;
+        }
+        
+        .col1 {
+            width: 980px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .col2 {
+            width: 480px;
+            margin-left: 10px;
+            margin-right: 10px;
+            float: left;
+        }
+        
+        .col3 {
+            width: calc(1000px/3 - 20px);
+            margin-left: 10px;
+            margin-right: 10px;
+            float: left;
+        }
+        
+        nav .logo {
+            float: left;
+            width: 60px;
+            height: 60px;
+            background-color: aqua;
+        }
+        
+        nav .menu {
+            float: right;
+            background-color: beige;
+        }
+        
+        nav li {
+            float: left;
+            list-style: none;
+        }
+        
+        nav .menu a {
+            display: block;
+            letter-spacing: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 60px;
+            line-height: 60px;
+            text-decoration: none;
+            color: #d4610f;
+            margin-left: 20px;
+        }
+        
+        header {
+            padding-top: 300px;
+            padding-bottom: 300px;
+            background-image: url(images/queen.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #about{
+            padding-top: 150px;
+            padding-top: 150
+        }
+        #about .col2:nth-of-type(2) img {
+            text-align: center;
+        }
+        
+        #about .col2:nth-of-type(2) img {
+            width: 200px;
+            height: 200px;
+        }
+        #portflio{
+         padding-top: 150px;
+           padding-top: 150px;
+            background-color:black
+        }
+        #portflio .col3:nth-of-type(2) img {
+            text-align: center;
+            overflow: hidden
+        }
+        
+        #portflio .col3:nth-of-type(2) img {
+            width: 200px;
+            height: 200px;
+        }
+        #blog{
+          padding-top: 150px;
+          padding-top: 150px;
+        }
+        .btn{
+            display:inline-block;
+            padding: 8px 30px;
+            background-color: #333;
+            color:#eee;
+            text-decoration: non;
+            }
+        .btn{
+            display:inline-block;
+            padding: 8px 30px;
+            background-color: #333;
+            color:#eee;
+            text-decoration: none;
+            }
+        .footer{
+            padding-top: 150px;
+            padding-top: 150px;
+            text-align: center;   
+        }
+    </style>
+</body>
+<nav class="full-width">
+    <div class="fix-width">
+        <div class="logo"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="full-width"></header>
+<div class="full-width clearfix"  id="about">
+    <div class="fixed-width">
+        <div class="col2">
+            <h2>About</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, soluta. Voluptates ratione maxime quaerat voluptatibus consectetur cumque repellendus laudantium dolorum eius aut amet, quam corrupti sint quod consequatur provident sit.
+            </p>
+        </div>
+        <div class="col2"><img src="images/Queen2.jpg" alt="">
+        </div>
+    </div>
+<div class="full-width clearfix"  id="portfolio">
+    <div class="fixed-width">
+        <div class="col3"><img src="images/queen.jpg" alt=""></div>
+        <div class="col3"><img src="images/queen.jpg" alt=""></div>
+        <div class="col3"><img src="images/queen.jpg" alt=""></div>
+ <div class="fixed-width">
+        <div class="col3"><img src="images/queen.jpg" alt=""></div>
+        <div class="col3"><img src="images/queen.jpg" alt=""></div>
+        <div class="col3"><img src="images/queen.jpg" alt=""></div>
+</div>
+</div>
+</div>
+<div class="full-width clearfix" id="blog">
+    <div class="fixed-width">
+        <div class="col2"></div>
+        <h3>Blog Title</h3></div>
+        <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, soluta. Voluptates ratione maxime quaerat voluptatibus consectetur cumque repellendus laudantium dolorum eius aut amet, quam corrupti sint quod consequatur provident sit.
+            </p>
+            <a href="#" class="btn">More</a>
+            <div class="col2"></div> 
+         <h3>Blog Title</h3>
+        <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, soluta. Voluptates ratione maxime quaerat voluptatibus consectetur cumque repellendus laudantium dolorum eius aut amet, quam corrupti sint quod consequatur provident sit.
+            </p>
+            <a href="#" class="btn">More</a>
+    <div class="full-width clearfix" id="btn">
+    <footer class="full-width clearfix">  </footer>
+    <p>2017&copy;All Rights Reserved</p>
+    
+
+      
+
+
+</div>
+</div>
+</div>
+</html>

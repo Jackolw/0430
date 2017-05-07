@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .full-widh{
+        width: 100%;
+        }
+    fixed-width{
+        width: 1000%;
+    margin:auto;
+    }
+    .col-1{
+        width: 980px;
+        margin-left: 10;
+        margin-right: 10;
+        
+    }
+    .col-2{
+        width: 480px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    .col-3{
+       width: calc(1000px/3 - 20px);
+       margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    #about .fixed-width{
+        border-color: #ff0606;
+    }
+    
+    </style>
+<body>
+    <div clss="full-width">
+    <div class="fixed-width"></div>
+    </div>
+      <div clss="full-width" id="blog">
+      <div class="col-1"></div>
+      <div class="fixed-width">
+     <div class="col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos deleniti magnam ad totam praesentium, eaque, aperiam obcaecati esse cumque. Debitis doloremque expedita voluptas repudiandae libero fugiat! Ullam laudantium sunt doloribus!</div>
+     <div class="col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus assumenda, odit enim, deserunt, rem, voluptatum praesentium veniam delectus similique animi libero. Rerum voluptates animi sed culpa, quisquam itaque provident fugit.</div>
+     <div class="col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores illum, consequatur ducimus officia quod accusantium sit culpa nulla alias, nesciunt aliquid, commodi ab ut ea deleniti voluptatibus vero dolores dolor?</div>
+     </div>
+     </div>
+      <div clss="full-width" id="banner">     
+    <div class="fixed-width"></div>
+    </div>
+     
+      <div clss="full-width" id="news">
+      <div class="col-1"></div>
+      <div class="fixed-width">
+     <div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, laboriosam, beatae. Natus veritatis quasi id accusamus, facere nulla sit praesentium reiciendis vero est. Sint provident eveniet ex repudiandae dolorem itaque.</div>
+     <div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim aperiam iure suscipit nemo voluptatem, deserunt repellendus sint aliquam, delectus sed corporis expedita labore, optio quaerat rerum fugit sapiente, nesciunt.</div>
+     </div>
+     </div>
+     
+      
+</body>
+</html>

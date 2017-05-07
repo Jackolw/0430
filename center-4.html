@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .comtainer{
+        width:1000px;
+        height:800px;
+        background-color: bisque;
+        display: flex;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center
+    }
+    .comtainer::before{
+        content:"";
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 100%
+    }
+    .box{
+        width: 200px;
+        background-color: beige;
+        }
+    </style>
+<body>
+  <div class="container">
+      <div class="box">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, doloribus corrupti. Nobis corrupti ratione accusantium sequi pariatur ipsa doloribus velit, quaerat in, suscipit quo, officiis deserunt autem consequatur. Delectus, quia.
+         </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sed ratione minus id saepe tenetur repudiandae pariatur quaerat, ut veniam repellendus fugit quidem laudantium, nihil odit autem, praesentium labore. Dignissimos.</p>
+          
+         </div> 
+       
+      <div class="box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sed ratione minus id saepe tenetur repudiandae 
+            pariatur quaerat, ut veniam repellendus fugit quidem laudantium, nihil odit autem, praesentium labore. Dignissimos.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sed ratione minus id saepe tenetur repudiandae pariatur quaerat, ut veniam repellendus fugit quidem laudantium, nihil odit autem, praesentium labore. Dignissimos.</p>
+      </div>
+  </div>  
+</body>
+</html>

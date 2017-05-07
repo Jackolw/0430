@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+        width:900px;
+        height:400px;
+        background-color: azure;
+        font-size:0;
+        text-align: center
+        }
+        .container::before{
+            content: "";
+            vertical-align:middle;
+            display: inline-block;
+            height: 100%
+        }
+        .content{
+            display: inline-block;
+            vertical-align: middle;
+            width:400px;
+                box-sizing:border-box;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify
+                
+        }
+        .pic
+        {
+            display: inline-block;
+            vertical-align: middle;
+            width: 200px;
+            hyphens: 200px;
+            background-color: #43866f
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+     <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit commodi porro dolorum, ad obcaecati eaque! Hic a consequuntur aut eos dolor, perspiciatis saepe sint laboriosam recusandae necessitatibus deserunt odio fugiat! 
+      
+     </div>
+       </div>
+       <div class="pic">
+  </div>  
+</body>
+</html>
